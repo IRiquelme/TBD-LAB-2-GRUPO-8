@@ -5,8 +5,8 @@ SELECT
 	Tarea_X_Voluntario.id_voluntario,
 	Tarea.nombre,
 	Tarea.descripcion,
-	emergencia.nombre AS emergencia_asociada,
-	'' AS ubicacion,
+	'ASD' AS emergencia_asociada,
+	'Santiago, RM' AS ubicacion,
 	Estado_Tarea.descripcion AS estado
 FROM Tarea
 INNER JOIN Emergencia
